@@ -15,6 +15,11 @@
 		<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo2.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize1.css" />
+        <link rel="stylesheet" type="text/css" href="css/demox.css" />
+        <link rel="stylesheet" type="text/css" href="css/componentx.css" />
+        <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800|Clicker+Script' rel='stylesheet' type='text/css'>
+        
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 		<script src="js/modernizr-2.6.2.min.js"></script>
 
@@ -31,7 +36,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 	</head>
     <body class="demo-2 loading">
-	
+	<div class="container demo-2">
+			<div class="content">
+                <div id="large-header" class="large-header">
 		<main>
 			<div class="message">Sorry, your browser does not support clip-path on HTML elements!</div>
 			<div class="content content--fixed">
@@ -45,11 +52,22 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 					<div class="glitch__img"></div>
 					<div class="glitch__img"></div>
 				</div>
-				<h2 class="content__title">GST.ino</h2>
+				
+                    <canvas id="demo-canvas"></canvas>
+                    <h1 class="content__title">TimePass</span></h1>
+                </div>
+            </div>
+        </div><!-- /container -->
+        <script src="js/rAF.js"></script>
+        <script src="js/demo-2.js"></script>
 			</div>
 		</main>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/demo.js"></script>
+	</div>
+</div>
+</div>
+
 	</body>
 	<body>
 		<div class="container">
