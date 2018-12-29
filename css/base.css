@@ -121,7 +121,7 @@ main {
 }
 
 .content {
-	position: relative;
+	position: fixed;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -162,8 +162,7 @@ main {
 
 /* Header */
 .codrops-header {
-	position: relative;
-	z-index: 100;
+	position: fixed;
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;

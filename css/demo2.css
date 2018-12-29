@@ -26,7 +26,7 @@
 .content__title {
 	font-size: 11vw;
 	margin: 35vh 0 0 0;
-	position: relative;
+	position: fixed;
 	font-family: 'Bungee', cursive;
 	color: var(--color-title);
 	animation-name: glitch-anim-text;
@@ -38,7 +38,7 @@
 
 /* Glitch styles */
 .glitch {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: var(--glitch-width);
@@ -47,7 +47,7 @@
 }
 
 .glitch__img {
-	position: absolute;
+	position: fixed;
 	top: calc(-1 * var(--gap-vertical));
 	left: calc(-1 * var(--gap-horizontal));
 	width: calc(100% + var(--gap-horizontal) * 2);
